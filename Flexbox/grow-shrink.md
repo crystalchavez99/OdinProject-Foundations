@@ -23,3 +23,6 @@ Expects a single number as its value, and that number is used as the flex-itemâ€
 The default shrink factor is `flex-shrink: 1`, which means all items will shrink evenly. If you do not want an item to shrink then you can specify `flex-shrink: 0`;. You can also specify higher numbers to make certain items shrink at a higher rate than normal.
 
 ### flex-basis
+`flex-basis` simply sets the initial size of a flex item, so any sort of `flex-growing` or `flex-shrinking` starts from that baseline size.
+
+Using auto as a `flex-basis` tells the item to check for a width declaration (`width: 250px`).
